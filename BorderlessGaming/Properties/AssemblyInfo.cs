@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Resources;
 using System.Runtime.InteropServices;
 
@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Borderless Gaming")]
+[assembly: AssemblyTitle("Foxito")]
 [assembly: AssemblyDescription("Play your favorite games in a borderless window; no more time-consuming Alt-Tabs!")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Andrew Sampson")]
-[assembly: AssemblyProduct("Borderless Gaming")]
+[assembly: AssemblyProduct("Foxito")]
 [assembly: AssemblyCopyright("Copyright © 2014-2018 Andrew Sampson")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

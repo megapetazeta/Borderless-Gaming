@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection;
 using System.Windows.Forms;
 using BorderlessGaming.Logic.System;
@@ -15,7 +15,7 @@ namespace BorderlessGaming.Forms
         private void AboutFormLoad(object sender, EventArgs e)
         {
             // removed .Version.ToString(2) in favor of just .ToString() here so we can see the build number now
-            versionLabel.Text = "Borderless Gaming " + Assembly.GetExecutingAssembly().GetName().Version;
+            versionLabel.Text = "🦊 Foxito (fork peludito de Borderless Gaming) " + Assembly.GetExecutingAssembly().GetName().Version;
             _copyrightLabel.Text = "Copyright © 2014-" + DateTime.Now.Year + " Andrew Sampson";
         }
 
