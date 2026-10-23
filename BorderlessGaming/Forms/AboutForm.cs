@@ -7,16 +7,27 @@ namespace BorderlessGaming.Forms
 {
     public partial class AboutForm : Form
     {
+        private int _foxClicks;
+
         public AboutForm()
         {
             InitializeComponent();
+            // psst... alguien vive aqui
+            versionLabel.Click += (o, a) =>
+            {
+                if (++_foxClicks < 5) return;
+                _foxClicks = 0;
+                MessageBox.Show(
+                    "    /\\_/\\\r\n   ( o.o )   \U0001F98A\r\n    > ^ <\r\n\r\nHola! Soy Foxito, muy peludito y muy bonito.\r\nCuido tus ventanas sin bordes. \U0001F43E",
+                    "\U0001F98A ???", MessageBoxButtons.OK, MessageBoxIcon.None);
+            };
         }
 
         private void AboutFormLoad(object sender, EventArgs e)
         {
             // removed .Version.ToString(2) in favor of just .ToString() here so we can see the build number now
-            versionLabel.Text = "🦊 Foxito (fork peludito de Borderless Gaming) " + Assembly.GetExecutingAssembly().GetName().Version;
-            _copyrightLabel.Text = "Copyright © 2014-" + DateTime.Now.Year + " Andrew Sampson";
+            versionLabel.Text = "Borderless Gaming " + Assembly.GetExecutingAssembly().GetName().Version;
+            _copyrightLabel.Text = "Copyright � 2014-" + DateTime.Now.Year + " Andrew Sampson";
         }
 
         #region Project and Maintainer Links

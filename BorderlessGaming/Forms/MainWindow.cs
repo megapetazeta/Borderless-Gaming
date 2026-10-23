@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
@@ -896,7 +896,7 @@ fav.PositionX.ToString()), out int favPositionX);
         private void MainWindow_Load(object sender, EventArgs e)
         {
             // set the title
-            Text = "🦊 Foxito ~ muy peludito y muy bonito 🐾 " + Assembly.GetExecutingAssembly().GetName().Version.ToString(3) + ((Uac.Elevated) ? " [Administrator]" : "");
+            Text = "Borderless Gaming " + Assembly.GetExecutingAssembly().GetName().Version.ToString(3) + ((Uac.Elevated) ? " [Administrator]" : "");
 
             var settings = Config.Instance.AppSettings;
             // load up settings
@@ -1051,7 +1051,7 @@ fav.PositionX.ToString()), out int favPositionX);
                 if (Config.Instance.AppSettings.HideBalloonTips && !Config.Instance.StartupOptions.Silent)
                 {
                     // Display a balloon tooltip message for 2 seconds
-                    trayIcon.BalloonTipText = string.Format(Resources.TrayMinimized, "Foxito 🦊");
+                    trayIcon.BalloonTipText = string.Format(Resources.TrayMinimized, "Borderless Gaming");
                     trayIcon.ShowBalloonTip(2000);
                 }
 
