@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("Borderless Gaming")]
-[assembly: AssemblyDescription("Play your favorite games in a borderless window; no more time-consuming Alt-Tabs!")]
+[assembly: AssemblyDescription("Juega tus juegos favoritos en una ventana sin bordes. \u00a1Se acabaron los Alt-Tab que te hacen perder tiempo!")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Andrew Sampson")]
 [assembly: AssemblyProduct("Borderless Gaming")]

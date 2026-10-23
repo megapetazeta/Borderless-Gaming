@@ -41,8 +41,8 @@ namespace BorderlessGaming.Logic.Models
         public bool DisableSteamIntegration { get; set; }
 
         [ProtoMember(12)]
-        [DefaultValue("en-US")]
-        public string DefaultCulture { get; set; } = "en-US";
+        [DefaultValue("es-419")]
+        public string DefaultCulture { get; set; } = "es-419";
 
         [ProtoMember(13)]
         [DefaultValue(true)]

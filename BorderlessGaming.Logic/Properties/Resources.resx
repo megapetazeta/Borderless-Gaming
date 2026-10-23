@@ -122,24 +122,24 @@
     <value>..\Resources\blank.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ErrorUpdates" xml:space="preserve">
-    <value>Borderless Gaming encountered an error checking for updates. Restart the program to try again.</value>
+    <value>Borderless Gaming tuvo un error al buscar actualizaciones. Reinicia el programa para intentarlo de nuevo.</value>
   </data>
   <data name="ErrorHeader" xml:space="preserve">
     <value>Error</value>
   </data>
   <data name="InfoUpdateAvailable" xml:space="preserve">
-    <value>A new version of Borderless Gaming is available. Would you like to go to the release page?</value>
+    <value>Hay una nueva versión de Borderless Gaming disponible. ¿Quieres ir a la página de la versión?</value>
   </data>
   <data name="InfoUpdatesHeader" xml:space="preserve">
-    <value>Update available</value>
+    <value>Actualización disponible</value>
   </data>
   <data name="MainWindow_toggleMouseCursorVisibilityToolStripMenuItem_Click_" xml:space="preserve">
-    <value>Do you really want to hide the mouse cursor?
+    <value>¿De verdad quieres ocultar el cursor del mouse?
 
-You may have a difficult time finding the mouse again once it's hidden.
+Puede que te cueste encontrarlo de nuevo una vez oculto.
 
-If you have enabled the global hotkey to toggle the mouse cursor visibility, you can press [Win + Scroll Lock] to toggle the mouse cursor on.
+Si activaste la tecla rápida global para alternar la visibilidad del cursor, puedes presionar [Win + Bloq Despl] para volver a mostrarlo.
 
-Also, exiting Borderless Gaming will immediately restore your mouse cursor.</value>
+Además, al salir de Borderless Gaming el cursor del mouse se restaurará de inmediato.</value>
   </data>
 </root>

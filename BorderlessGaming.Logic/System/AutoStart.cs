@@ -79,7 +79,7 @@ namespace BorderlessGaming.Logic.System
                     td.Principal.RunLevel = TaskRunLevel.Highest;
                     td.RegistrationInfo.Author = "Andrew Sampson";
                     td.RegistrationInfo.Date = new DateTime();
-                    td.RegistrationInfo.Description = "Starts Borderless Gaming when booting.";
+                    td.RegistrationInfo.Description = "Inicia Borderless Gaming al arrancar Windows.";
                     //wait 10 seconds until after login is complete to boot
                     var logT = new LogonTrigger {Delay = new TimeSpan(0, 0, 0, 10)};
                     td.Triggers.Add(logT);

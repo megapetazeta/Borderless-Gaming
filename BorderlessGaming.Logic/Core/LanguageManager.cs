@@ -46,7 +46,7 @@ namespace BorderlessGaming.Logic.Core
             var data = lang.Data(key);
             if (string.IsNullOrWhiteSpace(data))
             {
-                MessageBox.Show($"{lang.Culture} is missing a translation for {key}");
+                MessageBox.Show($"A {lang.Culture} le falta la traducci\u00f3n de {key}");
                 Environment.Exit(0);
             }
             return data;
@@ -69,13 +69,13 @@ namespace BorderlessGaming.Logic.Core
                 }
                 catch (Exception e)
                 {
-                    MessageBox.Show("Failed to extract the language pack. Please report this: " + e.Message);
+                    MessageBox.Show("No se pudo extraer el paquete de idiomas. Por favor rep\u00f3rtalo: " + e.Message);
                     Environment.Exit(1);
                 }
             }
             if (!Directory.Exists(AppEnvironment.LanguagePath))
             {
-                MessageBox.Show("UI Translations are missing from disk.");
+                MessageBox.Show("Faltan las traducciones de la interfaz en el disco.");
                 Environment.Exit(1);
             }
             foreach (var langFile in Directory.GetFiles(AppEnvironment.LanguagePath, "*.lang"))
@@ -93,7 +93,7 @@ namespace BorderlessGaming.Logic.Core
             }
             if (Languages.Count <= 0)
             {
-               MessageBox.Show($"No Langauges have been loaded! Ensure {AppEnvironment.LanguagePath} exist with at least one .lang file.");
+               MessageBox.Show($"\u00a1No se carg\u00f3 ning\u00fan idioma! Aseg\u00farate de que {AppEnvironment.LanguagePath} exista y tenga al menos un archivo .lang.");
                Environment.Exit(0);
             }
             var defaultLang = Languages.Values.FirstOrDefault(lang => lang.Culture.Equals(Config.Instance.AppSettings.DefaultCulture));

@@ -61,8 +61,8 @@ namespace BorderlessGaming.Forms
         private void DesktopAreaSelector_Shown(object sender, EventArgs e)
         {
             MessageBox.Show(
-                "Draw a rectangle on the screen to outline where you want the game window to appear.\r\n\r\nYou can move, drag, and resize the rectangle after you have drawn it.\r\n\r\nDouble-click to confirm your selection or press Escape to abort.",
-                "Draw Window Rectangle", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                "Dibuja un rect\u00e1ngulo en la pantalla para marcar d\u00f3nde quieres que aparezca la ventana del juego.\r\n\r\nDespu\u00e9s de dibujarlo puedes moverlo, arrastrarlo y cambiarle el tama\u00f1o.\r\n\r\nHaz doble clic para confirmar la selecci\u00f3n o presiona Escape para cancelar.",
+                "Dibujar rect\u00e1ngulo de la ventana", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private Point TranslateRealPointToDrawn(Point p)

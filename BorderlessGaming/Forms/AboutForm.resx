@@ -254,7 +254,7 @@
     <value>Impulser - Alex (RIP 1993 - 2015)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>About...</value>
+    <value>Acerca de...</value>
   </data>
   <data name="_gitHubLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -517,7 +517,7 @@
     <value>5</value>
   </data>
   <data name="_gitHubLabel.Text" xml:space="preserve">
-    <value>Github:</value>
+    <value>GitHub:</value>
   </data>
   <data name="_ownerLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 91</value>
@@ -689,7 +689,7 @@
     <value>True</value>
   </data>
   <data name="_committersLabel.Text" xml:space="preserve">
-    <value>Contributers:</value>
+    <value>Colaboradores:</value>
   </data>
   <data name="_impulserNameTag.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1014,7 +1014,7 @@
     <value>60, 209</value>
   </data>
   <data name="_ownerLabel.Text" xml:space="preserve">
-    <value>Maintainers:</value>
+    <value>Mantenedores:</value>
   </data>
   <data name="&gt;&gt;_dmxtGithubGlobe.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1610,7 +1610,7 @@
     <value>162, 13</value>
   </data>
   <data name="_steamGroupLabel.Text" xml:space="preserve">
-    <value>Steam Page</value>
+    <value>Página de Steam</value>
   </data>
   <data name="_impulserGithubGlobe.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>

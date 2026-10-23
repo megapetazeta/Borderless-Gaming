@@ -1,40 +1,36 @@
-# How to contribute
+# Cómo contribuir
 
-We like to encourage you to contribute to the repository.
-This should be as easy as possible for you but there are a few things to consider when contributing.
-The following guidelines for contribution should be followed if you want to submit a pull request.
+Te animamos a contribuir al repositorio. Queremos que sea lo más fácil posible, pero hay algunas cosas a tener en cuenta. Sigue estas pautas si quieres enviar un pull request.
 
-## How to prepare
+## Preparación
 
-* You need a [GitHub account](https://github.com/signup/free)
-* Submit an [issue ticket](https://github.com/Codeusa/Borderless-Gaming/issues) for your issue if the is no one yet.
-	* Describe the issue and include steps to reproduce if it's a bug.
-	* Ensure to mention the earliest version that you know is affected.
-* If you are able and want to fix this, fork the repository on GitHub
+* Necesitas una [cuenta de GitHub](https://github.com/signup/free).
+* Abre un [issue](https://github.com/andrewmd5/Borderless-Gaming/issues) para tu problema si todavía no existe uno.
+	* Describe el problema e incluye los pasos para reproducirlo si es un error.
+	* Indica la versión más antigua que sabes que está afectada.
+* Si puedes y quieres corregirlo, haz un fork del repositorio en GitHub.
 
-## Make Changes
+## Hacer cambios
 
-* In your forked repository, create a topic branch for your upcoming patch. (e.g. `better favorites detection` or `failed-to-edit-window-fix`)
-	* Usually this is based on the master branch.
-	* Create a branch based on master; `git branch
-	fix/master/my_contribution master` then checkout the new branch with `git
-	checkout fix/master/my_contribution`.  Please avoid working directly on the `master` branch.
-* Make sure you stick to the coding style that is used already.
-* Make commits of logical units and describe them properly.
-* Syntax:
-    * Two spaces, no tabs.
-    * No trailing whitespace. Blank lines should not have any space.
-    * a = b and not a=b.
-    * Follow the conventions you see used in the source already.
+* En tu fork, crea una rama temática para tu parche (por ejemplo, `mejor-deteccion-favoritos` o `fix-error-al-editar-ventana`).
+	* Normalmente se basa en la rama principal.
+	* Crea la rama con `git branch fix/master/mi_contribucion master` y cámbiate a ella con `git checkout fix/master/mi_contribucion`. Evita trabajar directamente sobre la rama `master`.
+* Respeta el estilo de código que ya se usa.
+* Haz commits por unidades lógicas y descríbelos bien.
+* Sintaxis:
+    * Dos espacios, sin tabulaciones.
+    * Sin espacios al final de las líneas. Las líneas en blanco no deben tener espacios.
+    * `a = b` y no `a=b`.
+    * Sigue las convenciones que ya ves en el código.
 
-## Submit Changes
+## Enviar cambios
 
-* Push your changes to a topic branch in your fork of the repository.
-* Open a pull request to the original repository and choose the right original branch you want to patch.
-* If not done in commit messages (which you really should do) please reference and update your issue with the code changes. But _please do not close the issue yourself_.
-* Even if you have write access to the repository, do not directly push or merge pull-requests. Let another team member review your pull request and approve.
+* Sube tus cambios a una rama temática de tu fork.
+* Abre un pull request contra el repositorio original y elige la rama correcta que quieres modificar.
+* Si no lo hiciste en los mensajes de commit (que es lo recomendable), referencia y actualiza tu issue con los cambios de código. Pero _por favor no cierres el issue tú mismo_.
+* Aunque tengas permisos de escritura en el repositorio, no hagas push ni merge directo de pull requests. Deja que otro miembro del equipo revise y apruebe tu pull request.
 
-# Additional Resources
+# Recursos adicionales
 
-* [General GitHub documentation](http://help.github.com/)
-* [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
+* [Documentación general de GitHub](https://docs.github.com/es)
+* [Documentación sobre pull requests](https://docs.github.com/es/pull-requests)

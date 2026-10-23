@@ -44,7 +44,7 @@ namespace BorderlessGaming.Logic.System.Utilities
                             Type = exception.GetType().Name
                         });
                     }
-                    MessageBox.Show($"An Unhandled Exception was Caught and Logged to:\r\n{filePath}", "Exception Caught", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Se captur\u00f3 una excepci\u00f3n no controlada y se registr\u00f3 en:\r\n{filePath}", "Excepci\u00f3n capturada", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 catch
                 {
@@ -77,8 +77,8 @@ namespace BorderlessGaming.Logic.System.Utilities
                         });
                     }
                     MessageBox.Show(
-                        $"An Unhandled Thread Exception was Caught and Logged to:\r\n{filePath}",
-                        "Thread Exception Caught", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        $"Se captur\u00f3 una excepci\u00f3n no controlada en un hilo y se registr\u00f3 en:\r\n{filePath}",
+                        "Excepci\u00f3n de hilo capturada", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 catch
                 {

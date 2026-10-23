@@ -406,8 +406,8 @@ namespace BorderlessGaming.Forms
             {
                 return;
             }
-            var res = InputText("Add to favorites by RegEx string",
-                "Regex string (see the Help menu for reference)", pd.WindowTitle);
+            var res = InputText("Agregar a favoritos por expresi\u00f3n regular",
+                "Expresi\u00f3n regular (consulta el men\u00fa Ayuda como referencia)", pd.WindowTitle);
             if (!string.IsNullOrWhiteSpace(res.Trim()))
             {
                 var favorite = new Favorite
@@ -896,7 +896,7 @@ fav.PositionX.ToString()), out int favPositionX);
         private void MainWindow_Load(object sender, EventArgs e)
         {
             // set the title
-            Text = "Borderless Gaming " + Assembly.GetExecutingAssembly().GetName().Version.ToString(3) + ((Uac.Elevated) ? " [Administrator]" : "");
+            Text = "Borderless Gaming " + Assembly.GetExecutingAssembly().GetName().Version.ToString(3) + ((Uac.Elevated) ? " [Administrador]" : "");
 
             var settings = Config.Instance.AppSettings;
             // load up settings

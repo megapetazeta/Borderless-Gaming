@@ -693,7 +693,7 @@
     <value>1</value>
   </data>
   <data name="btnCancel.Text" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Cancelar</value>
   </data>
   <data name="lblInstructions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -708,7 +708,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblInstructions.Text" xml:space="preserve">
-    <value>Input text:</value>
+    <value>Escribe el texto:</value>
   </data>
   <data name="&gt;&gt;txtInput.Parent" xml:space="preserve">
     <value>$this</value>
@@ -729,7 +729,7 @@
     <value>413, 126</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Input Text</value>
+    <value>Ingresar texto</value>
   </data>
   <data name="&gt;&gt;txtInput.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
